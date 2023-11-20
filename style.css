@@ -1,0 +1,323 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     background-color: rgb(1, 1, 26);
+    color: white;
+    }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(18, 18, 74);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+ nav ul li{
+    list-style: none;
+    margin: 0 25px;
+} 
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+  
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 170px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.lsection{
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+   
+.rsection img{
+    width: 70%;
+    border-radius: 30%;
+    margin-right: 20%
+}
+#name{
+    color: aqua;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+#element{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: oblique;
+}
+.second{
+    color: aqua;
+    align-items: center;
+}
+.line{
+  opacity: 0.5;
+  margin: 38px 82px;
+}
+.hire{
+    border: 2px solid aquamarine;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 4rem;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+.hire:hover{
+    background-color: aqua;
+    color: rgb(6, 6, 21);
+}
+.exp{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    
+}
+.about_me{
+    display: flex;
+
+}
+.about_left img{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+   margin: 100px 70px;
+
+}
+.about_right{
+    margin: 2rem 7rem;
+    color: #ffffff;
+    font-size: 20px;
+     word-spacing: 5px; 
+     height: 600px;
+}
+.about_right h2{
+ font-family: Arial, Helvetica, sans-serif;
+}
+#pradhan{
+    color: rgb(51, 216, 216);
+}
+#cv a{
+    text-decoration: none;
+    color: aqua;
+    border:2px solid #ffffff;
+}
+#cv a:hover{
+    background-color: aquamarine;
+    color: rgb(3, 3, 54);
+}
+#edu{
+    color: aqua;
+}
+.Education_main{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+     height: 640px;
+}
+
+.inner_edu{
+    background-color: rgb(3, 126, 234);
+    padding: 5px;
+    font-size: larger;
+    line-height: 3rem;
+}
+.inner_edu a{
+    text-decoration: none;
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.inner_edu :hover{
+    background-color: white;
+    color: black;
+}
+#skl{
+    color:black;
+    font-family: 'popins',sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.skill{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+}
+.skill .box{
+  margin-bottom: 10px;
+ 
+}
+.skill .box h4{ 
+    margin:  0 0 5px 10px;  
+    letter-spacing: .5px;
+    color: rgb(255, 4, 4);
+}
+.skill .box .progress{
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 3px 4px 4px 0px rgba(204 185 185 / .75);
+}
+.skill .box .progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgb(32, 70, 42) 50%, rgb(15, 103, 57) 100%);
+    transition: width .5s linear;
+} 
+
+.four{
+    background-image: url("portfolio.jpg");
+    background-size:cover ;
+    margin-top: 0rem;
+    height: 710px;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+}
+.lft{
+    margin: 15px 200px;
+}
+.five{
+    background-image: url("msg-logo.jpg");
+    background-size:cover ;
+    margin-top: 0rem;
+    
+}
+.five li{
+    list-style-type: none;
+}
+#msg{
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.cont{
+    height: 700px;
+    display: flex;
+}
+.address{
+    border: 1px solid rgb(21, 26, 15);
+    text-align: center;
+    line-height: 40px;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'popins',sans-serif;
+    color: rgb(252, 251, 251);
+    margin: 100px 100px;
+}
+.address:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 5s;
+}
+.username{
+    border: 1px solid rgb(21, 26, 15);
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'popins',sans-serif;
+    color: rgb(7, 1, 1);
+    margin-left: 600px;;
+}
+.username button{
+    background: blue;
+    color: #ffffff;
+}  
+.username button:hover{
+    border-radius: 40%;
+    color: rgb(2, 251, 52);
+    cursor: pointer;
+}
+.footersection{
+    display: flex;
+    justify-content: center;
+       
+}
+.footersection a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.footersection a i{
+font-size: 2rem;
+color: black;
+opacity: 0.8;
+}
+.footersection a i:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: #ffffff;
+}
+.footerlink{
+    margin: 30px 0;
+}  
+.footerlink ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footerlink a{
+    text-decoration: none;
+    font-size: 1.5rerm;
+    opacity: 0.5;
+    margin: 15px;
+    color: #ffffff;
+  
+}
+.footerlink a:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.lower{
+    text-align: center;
+    background-color: rgb(6, 6, 6);
+    color: white;
+}
+@media(max-width:700px)
+{
+    .footerlink ul{
+        flex-direction: column;
+    }
+    .footerlink ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
